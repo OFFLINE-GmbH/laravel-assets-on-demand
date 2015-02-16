@@ -1,0 +1,29 @@
+{
+  "name": "offline/laravel-assets-on-demand",
+  "description": "Include Assets via Controller action",
+  "keywords": [
+    "laravel-5",
+    "laravel",
+    "assets",
+    "on-demand"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tobias Kuendig",
+      "email": "tobias.kuendig@offlinegmbh.ch"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-0": {
+      "Offline\\Asset": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
