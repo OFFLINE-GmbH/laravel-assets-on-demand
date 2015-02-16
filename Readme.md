@@ -6,7 +6,7 @@ This package makes it easy to add JS files, CSS files and HTML imports to your t
 To install this package include it in your `composer.json` and run `composer update`:
 
     "require": {
-       "offline/laravel-assets-on-demand": "dev-master"
+       "offline/laravel-assets-on-demand": "1.0.0"
     }
      
 Add the Service Provider to the `provider` array in your `config/app.php`
@@ -46,7 +46,7 @@ To split your assets into groups, use the third parameter. Default is `head`.
     Asset::addJs('build/js/app.js', 0, 'footer');
 
 
-## Include your assets
+## Add your assets to your template
 
 In your template, include the assets via
 
