@@ -1,6 +1,6 @@
 {
   "name": "offline/laravel-assets-on-demand",
-  "description": "Include Assets via Controller action",
+  "description": "Asset Manager for Laravel 5",
   "keywords": [
     "laravel-5",
     "laravel",
