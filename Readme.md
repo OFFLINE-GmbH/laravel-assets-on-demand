@@ -1,4 +1,5 @@
 # Asset Manager for Laravel 5
+[![Build Status](https://travis-ci.org/OFFLINE-GmbH/laravel-assets-on-demand.svg?branch=develop)](https://travis-ci.org/OFFLINE-GmbH/laravel-assets-on-demand)
 
 This package makes it easy to add JS files, CSS files and HTML imports to your template. 
 
